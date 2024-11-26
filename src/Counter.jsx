@@ -25,7 +25,8 @@ function Counter() {
     <div>
       <h1>Counter Property</h1>
       <p className='count'>{count}</p>
-      <button onClick={handleStop}>Click</button>
+      <button onClick={handleStop}>Stop</button>
+      <button onClick={handleStart}>Start</button>
     </div>
   )
 }
