@@ -4,9 +4,11 @@ function Counter() {
     const [count, setCount] = useState(0);
     const [isRunning, setIsRunning] = useState(true);
 
+    function handleStart(){
+      setIsRunning(true)
+    }
     function handleStop(){
-      setIsRunning(!isRunning)
-      return isRunning ? "Stop":"Start"
+      setIsRunning(false)
     }
     useEffect(() =>{
       let intervalId;
