@@ -20,7 +20,7 @@ body{
 }
 button{
     padding: 15px;
-    margin:20px
+    margin-left: 20px;
     width: 80px;
     border-radius: 10px;
     background-color: blue;
